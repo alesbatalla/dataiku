@@ -6,7 +6,7 @@
             "value": "westeurope"
         },
         "networkInterfaceName": {
-            "value": "rnode_ni_1"
+            "value": "dataiku_ni_1"
         },
         "subnetName": {
             "value": "sans1weusntplatfoglob001"
@@ -15,10 +15,10 @@
             "value": "/subscriptions/8bfeca61-c921-4fa0-8ac0-eb62b7072a01/resourceGroups/sans1weursgplatfoglob001/providers/Microsoft.Network/virtualNetworks/sans1weuvntplatfoglob001"
         },
         "publicIpAddressName": {
-            "value": "rnode-ip_1"
+            "value": "dataiku-ip_1"
         },
         "publicDnsName": {
-            "value": "rnode1"
+            "value": "dataiku1"
         },		
         "publicIpAddressType": {
             "value": "Dynamic"
@@ -27,16 +27,19 @@
             "value": "Basic"
         },
         "virtualMachineName": {
-            "value": "rnode1"
+            "value": "dataiku1"
         },
         "virtualMachineRG": {
             "value": "sans1weursgcldk8stech001"
         },
+        "osDiskName": {
+            "value": "dataiku1_OSDisk_0"
+        },		
         "osDiskType": {
             "value": "Standard_LRS"
         },
         "virtualMachineSize": {
-            "value": "Standard_D2s_v3"
+            "value": "E2a_v4"
         },
         "adminUsername": {
             "value": "rancher"

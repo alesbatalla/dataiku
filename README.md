@@ -5,7 +5,7 @@ Dataiku test
 
 - Review /azure_templates dir to create a VM with disk.
 ``` bash
-az deployment group create -g sans1weursgcldk8stech001 --name dataiku_dg --template-file azure_templates/template.json --parameters @azure_templates/parameters.json
+az deployment group create -g sans1weursgcldk8stech001 --name dataiku_dg --template-file azure-template/template.json --parameters @azure-template/parameters.json
 az vm extension set \
   --publisher Microsoft.Azure.Extensions \
   --version 2.0 \
