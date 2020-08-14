@@ -39,7 +39,7 @@
             "value": "Standard_LRS"
         },
         "virtualMachineSize": {
-            "value": "E2a_v4"
+            "value": "Standard_E2_v3"
         },
         "adminUsername": {
             "value": "rancher"
